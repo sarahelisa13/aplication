@@ -1,0 +1,2 @@
+export const ACCESS_TOKEN =
+  'pk.eyJ1Ijoic2lkcm9iZXJ0YXEiLCJhIjoiY2w1NnY3ZXA2MW12YjNqbXIwdXVleXNtMSJ9.0R-8Zw1p-Ff1DBSunGyU5g'

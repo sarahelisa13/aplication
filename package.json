@@ -1,0 +1,17 @@
+{
+    "name": "exemplo-shapefile-web",
+    "private": true,
+    "version": "0.0.0",
+    "scripts": {
+      "dev": "vite",
+      "build": "vite build",
+      "preview": "vite preview"
+    },
+    "devDependencies": {
+      "vite": "^2.9.9"
+    },
+    "dependencies": {
+      "mapbox-gl": "^2.9.1",
+      "shapefile-to-geojson": "^1.0.1"
+    }
+  }

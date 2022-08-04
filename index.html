@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://api.mapbox.com/mapbox-gl-js/v2.9.1/mapbox-gl.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="styles.css">
+  
+  <title>Exemplo Mapa Desmatamento</title>
+</head>
+
+<header> 
+  <button id="menu">
+    <img src="img/menu.png" alt="Menu">
+</button>
+  <img id="logo" src="img/example.png" alt="">
+
+  <div id="titulo">
+  <h1 > Ame Pantanal </h1>
+</div>
+</header>
+
+<div id="container">
+    <nav class="barra">
+        <button><img src="img/1.png" alt="Centralizar"></button>
+        <button><img src="img/2.png" alt="Aumentar"></button>
+        <button><img src="img/3.png" alt="Reduzir"></button>
+        <button><img src="img/4.png" alt="Restaurar mapa"></button>
+    </nav>
+   
+</div>
+
+<body>
+  
+  <div id="app">
+    <div id="map"></div>
+  </div>
+  <script type="module" src="/src/main.js"></script>
+</body>
+
+</html>
